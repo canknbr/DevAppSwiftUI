@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView(.horizontal,showsIndicators: false) {
+            HStack (alignment:.center,spacing: 20){
+                ForEach(cardData) { item in
+                    CardView(card: item)
+                }
+            }.padding(20)
         }
-        .padding()
     }
 }
 
