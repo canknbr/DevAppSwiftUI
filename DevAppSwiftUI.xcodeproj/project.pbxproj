@@ -18,6 +18,7 @@
 		36875A032A24BC5100F6D4D3 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36875A022A24BC5100F6D4D3 /* PlaySound.swift */; };
 		36875A092A24BFEB00F6D4D3 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36875A082A24BFEB00F6D4D3 /* Stickers.xcassets */; };
 		36875A0D2A24BFEB00F6D4D3 /* stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 36875A062A24BFE900F6D4D3 /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36875A132A24C1CC00F6D4D3 /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = 36875A122A24C1CC00F6D4D3 /* ss.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		36875A062A24BFE900F6D4D3 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		36875A082A24BFEB00F6D4D3 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		36875A0A2A24BFEB00F6D4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36875A122A24C1CC00F6D4D3 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		368759DB2A24B43500F6D4D3 = {
 			isa = PBXGroup;
 			children = (
+				36875A122A24C1CC00F6D4D3 /* ss.png */,
 				368759E62A24B43500F6D4D3 /* DevAppSwiftUI */,
 				36875A072A24BFE900F6D4D3 /* stickers */,
 				368759E52A24B43500F6D4D3 /* Products */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36875A132A24C1CC00F6D4D3 /* ss.png in Resources */,
 				368759F62A24B5D800F6D4D3 /* Launch Screen.storyboard in Resources */,
 				368759FF2A24BC3E00F6D4D3 /* sound-chime.mp3 in Resources */,
 				368759EF2A24B43700F6D4D3 /* Preview Assets.xcassets in Resources */,
